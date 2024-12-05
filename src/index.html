@@ -5,13 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="./output.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<!--##################### CDN-animation-SOURCES #################-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-  <!-- ###############-header- start############### -->
-<header class="lg:container mx-auto grid grid-cols-2 py-10">
+<!-- ###############-header- start############### -->
+<header class="lg:container lx:container mx-auto grid grid-cols-2 py-10">
     <!-- ###content-area### -->
-    <div class="content-area content-center space-y-3">
+    <div data-aos="zoom-in-down"
+    data-aos-duration="1500"
+   class="content-area content-center space-y-3">
       <div class="title text-5xl font-bold border-l-4 border-red-400 rounded pl-3">
         <h1 class="text-gray-800">Stay Focused on</h1>
         <span class="text-orange-300">Mission 2024</span>
@@ -21,36 +24,41 @@
   <p class="text-sm">Scroll down to explore more about us</p>
     </div>
     <!-- ####image-area#### -->
-    <div class="image-area place-items-center">
+    <div data-aos="zoom-in-left"
+    data-aos-duration="1500"
+    class="image-area place-items-center">
   <img class="w-96" src="../images/person/person-2.png" alt="">
     </div>
   </header> 
-  <!-- #################header-end######################### -->
-   <!-- #####################--my-mission--###################### -->
+<!-- #################header-end######################### -->
+   
     <main>
+<!-- #####################--my-mission-start-################### -->
       <section class="container mx-auto py-6">
           <h1 class="text-5xl font-bold text-center py-5 text-gray-800">My Mission in <span class="text-orange-300">2024</span> </h1>
         <div class="grid grid-cols-3 gap-6 py-12">
-          <div class="bg-sky-50 p-8 rounded-3xl space-y-4">
+          <div data-aos="fade-right" data-aos-duration="1500" class="bg-sky-50 p-8 rounded-3xl space-y-4">
             <img class="w-1/3" src="../images/illustrators/illustrator-1.png" alt="">
             <h1 class="text-2xl font-bold text-gray-800">Mission</h1>
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
           </div>
-          <div class="bg-red-50 p-8 rounded-3xl space-y-4">
+          <div data-aos="fade-up" data-aos-duration="1500" class="bg-red-50 p-8 rounded-3xl space-y-4">
             <img class="w-1/3" src="../images/illustrators/illustrator-2.png" alt="">
             <h1 class="text-2xl font-bold text-gray-800">Vission</h1>
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
           </div>
-          <div class="bg-orange-100 p-8 rounded-3xl space-y-4">
+          <div data-aos="fade-down" data-aos-duration="1500" class="bg-orange-100 p-8 rounded-3xl space-y-4">
             <img class="w-1/3" src="../images/illustrators/illustrator-3.png" alt="">
             <h1 class="text-2xl font-bold text-gray-800">Goals</h1>
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
           </div>
         </div>
       </section>
-      <!-- ##########################-Develop Without Limits-############################### -->
+<!-- ####################--my-mission-end-###################### -->
+<!-- ####################-Develop Without Limits-start########## -->
        <section class="develop pb-20">
-        <div class="container mx-auto flex items-center gap-20 ">
+        <div data-aos="fade-up"
+        data-aos-duration="1500" class="container mx-auto flex items-center gap-20 ">
           <img class="w-96" src="../images/pictures/coding.png" alt="">
         <div class="space-y-4">
           <h1 class="text-4xl font-bold text-gray-800 leading-normal">Develop<br> Without Limits</h1>
@@ -59,9 +67,11 @@
         </div>
         </div>
        </section>
-       <!-- ##################################__Know our Global Community__#################################### -->
+<!-- #######################-Develop Without Limits-end########################## -->
+<!-- #######################__Global Community-start__############################ -->
        <section class="pb-20">
-        <div class="container mx-auto flex items-center gap-20 flex-row-reverse">
+        <div data-aos="fade-up"
+        data-aos-duration="1500" class="container mx-auto flex items-center gap-20 flex-row-reverse">
           <img class="w-96" src="../images/pictures/project.png" alt="">
         <div class="space-y-4">
           <h1 class="text-4xl font-bold text-gray-800 leading-normal">Know our<br> Global Community</h1>
@@ -70,27 +80,36 @@
         </div>
         </div>
        </section>
-       <!-- ################################__Build Corona Application__############################# -->
+<!-- ########################__ Global Community-end__############################ -->
+<!-- ########################__Build Corona Application-start__################### -->
        <section class="py-10">
         <h1 class="text-5xl font-bold text-center text-gray-800">Build<span class="text-orange-300">Corona Application</span> </h1>
        <div class="container mx-auto grid grid-cols-2 py-20">
-        <div class="place-items-center">
+        <div data-aos="zoom-in-down"data-aos-duration="1500" class="place-items-center">
           <img class="w-96" src="../images/pictures/app.png" alt="">
         </div>
-        <div class="content-center space-y-5">
+        <div data-aos="zoom-in-left"data-aos-duration="1500" class="content-center space-y-5">
             <h1 class="text-5xl font-bold text-gray-800 leading-normal">Stay safe with<br> Go<span class="text-orange-300">Corona.</span></h1>
           <p class="text-xl leading-normal">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim deterruisset eos et. An mundi noster pri, ea eos quas expetendis scripserit, affert gubergren dissentias et cum.</p>
           <button class="bg-red-500 py-2 px-5 text-white rounded"><a href="#">App Fetures</a></button>
         </div>
        </div>
       </section>
+<!-- ########################__Build Corona Application-end__##################### -->
     </main>
-    <!-- #########___Mission 2024___########### -->
+<!-- #########___Mission 2024-start___########### -->
     <footer class="bg-black">
       <div class="flex flex-col items-center py-16 space-y-6">
         <h1 class="text-3xl font-semibold text-white">Mission <span class="text-red-500">2024</span></h1>
       <p class=" text-gray-200">Hard work, Perseverance, and Determination for 2022</p>
       </div>
     </footer>
+<!-- #########___Mission 2024-end___########### -->    
+<!-- ############# AOS-animation-JS ############### -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- ############# Initialize AOS ############### -->
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
